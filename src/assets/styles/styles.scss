@@ -10,13 +10,19 @@
 @import 'basics/base.scss';
 @import 'basics/buttons.scss';
 
+
 //  PAGES
 @import 'pages/home-page.scss';
+@import 'pages/meet-me.scss';
 
 
 
 //  CMPS
 @import 'cmps/app-header.scss';
+@import 'cmps/skills.scss';
+@import 'cmps/my-stack.scss';
+@import 'cmps/portafolio.scss';
+@import 'cmps/footer.scss';
 
 
 

@@ -1,0 +1,20 @@
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 50%;
+    margin-right: 50%;
+    color: #72d1c6;
+
+  
+}
+
+// @media screen and (min-width: 1040px) {
+//     .home-page-container{
+//         margin-left: 0;
+//         margin-right: 0;
+//     }
+// }

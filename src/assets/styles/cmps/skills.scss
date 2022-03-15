@@ -1,0 +1,54 @@
+.skills-icons {
+    width: 0%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: -30px;
+    margin-left: 30%;
+
+    .self-learn-icon img {
+        width: 50%;
+    }
+
+    .selfLearn-p {
+        color: rgba(20, 20, 20, 0.781);
+        width: 150px;
+    }
+}
+
+.normal-line {
+    color: #72d1c6;
+    background-color: #72d1c6;
+    width: 18rem;
+    height: 2px;
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 1040px) {
+    .skills-icons {
+        gap: 77px;
+        margin-top: 30px;
+        flex-direction: row;
+        margin-left: 0%;
+    
+
+        .selfLearn-p {
+            color: rgba(20, 20, 20, 0.781);
+            width: 150px;
+        }
+    }
+
+    .normal-line {
+  
+        width: 52rem;
+      
+    }
+
+  
+
+
+
+}
+

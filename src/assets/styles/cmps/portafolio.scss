@@ -1,0 +1,144 @@
+.portafolio {
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    background: linear-gradient(290deg, #07eb9acc, #6bc7e6);
+    border-radius: 0 0 0 0;
+    text-align: center;
+    transform: scaleX(1.0001);
+    color: whitesmoke;
+
+    .portafolio-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+
+        .bcw-container {
+            margin-top: 30px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 5%;
+            margin-bottom: 20px;
+
+
+            .bcw-img {
+                width: 100%;
+            }
+
+            
+        }
+        .app-container {
+            margin-top: 30px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 5%;
+            margin-bottom: 20px;
+
+
+            .app-img {
+                width: 100%;
+            }
+
+            
+        }
+        .bnb-container {
+            margin-top: 30px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 5%;
+            margin-bottom: 20px;
+
+
+            .bnb-img {
+                width: 100%;
+            }
+
+            
+        }
+    }
+}
+
+.btn-action {
+    justify-content: center;
+    display: flex;
+    gap: 3%;
+    margin-top: 10px;
+
+    img{
+        width: 75%;
+
+    }
+
+    .btn-link {
+        background-color: whitesmoke;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+    }
+
+}
+
+.logobnb{
+    width: 10%;
+}
+
+
+@media screen and (min-width: 1040px) {
+    .portafolio {
+        height: 100vh;
+        border-radius: 0 0 100% 50%;
+
+
+
+        .portafolio-container {
+            margin-top: -90px;
+          
+            .bcw-container {
+                flex-direction: row;
+                margin-bottom: 0;
+
+                .bcw-img {
+                    width: 220%;
+                }
+
+    
+                
+            }
+            .app-container {
+                flex-direction: row;
+                margin-bottom: 0;
+
+                .app-img {
+                    width: 200%;
+                }
+
+    
+                
+            }
+            .bnb-container {
+                flex-direction: row;
+                margin-bottom: 0;
+
+
+                .bnb-img {
+                    width: 200%;
+                }
+         
+                
+            }
+        }
+    }
+
+
+}

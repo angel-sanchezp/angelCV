@@ -1,0 +1,97 @@
+.about-app {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin-top: 30px;
+    align-items: center;
+    color: #72d1c6;
+    top: 0;
+    margin-left: 0;
+    gap: 2%;
+}
+
+.card-about-app {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.angel-img {
+    width: 70%;
+}
+
+.title-about-app {
+    color: grey;
+    font-size: 15px;
+}
+
+.btn-about-app {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #72d1c6;
+    text-align: center;
+    cursor: pointer;
+    width: 95%;
+    font-size: 18px;
+}
+
+.a-about-app {
+    text-decoration: none;
+    /* font-size: 22px; */
+    /* color: black; */
+}
+
+.btn-about-app:hover,
+.a-about-app:hover {
+    opacity: 0.7;
+}
+
+.btn-heart {
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+}
+
+.github-icon {
+    width: 30px;
+}
+
+.linkdin-icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.meet-me-p {
+    width: 70%;
+    margin: 0;
+}
+.meet-me {
+    text-align: center;
+    width: 100%;
+    padding-inline-start: 25%;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1040px) {
+    .about-app {
+        flex-direction: row;
+        margin-top: -110px;
+        align-items: center;
+        margin-left: 25%;
+        gap: 2%;
+    }
+
+    .meet-me {
+        padding-inline-start: 0;
+        margin-bottom: 0;
+    }
+}
