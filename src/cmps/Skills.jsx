@@ -21,11 +21,11 @@ export function Skills() {
                     <h3>Problem Solving</h3>
                     <p className="selfLearn-p">Bugs its another way to learn </p>
                 </div>
-                <div className="self-learn-icon">
+                {/* <div className="self-learn-icon">
                     <img src="https://res.cloudinary.com/angelsa/image/upload/v1645972089/resume/she-codes-logo_brskv6.png" alt="" />
                     <h3>Voluntier</h3>
                     <p className="selfLearn-p">I'm a voluntier at she codes org. </p>
-                </div>
+                </div> */}
             </div>
 
             <div className="normal-line"></div>
