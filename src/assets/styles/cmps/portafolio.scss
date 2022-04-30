@@ -66,6 +66,21 @@
 
             
         }
+        .soldays-container {
+            margin-top: 30px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 5%;
+            margin-bottom: 20px;
+
+
+            .soldays-img {
+                width: 100%;
+            }
+
+            
+        }
     }
 }
 
@@ -96,10 +111,8 @@
 
 @media screen and (min-width: 1040px) {
     .portafolio {
-        height: 100vh;
+        height: 160vh;
         border-radius: 0 0 100% 50%;
-
-
 
         .portafolio-container {
             margin-top: -90px;
@@ -111,10 +124,9 @@
                 .bcw-img {
                     width: 220%;
                 }
-
-    
                 
             }
+
             .app-container {
                 flex-direction: row;
                 margin-bottom: 0;
@@ -122,10 +134,9 @@
                 .app-img {
                     width: 200%;
                 }
-
-    
-                
+             
             }
+
             .bnb-container {
                 flex-direction: row;
                 margin-bottom: 0;
@@ -134,7 +145,18 @@
                 .bnb-img {
                     width: 200%;
                 }
-         
+        
+            }
+
+            .soldays-container {
+                flex-direction: row;
+                margin-bottom: 0;
+    
+    
+                .soldays-img {
+                    width: 390%;
+                }
+    
                 
             }
         }

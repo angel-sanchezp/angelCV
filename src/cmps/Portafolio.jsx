@@ -38,6 +38,21 @@ export function Portafolio() {
                         </div>
                     </div>
                 </div>
+                <div className="soldays-container">
+                    <div className="soldays-img">
+                        <img src="https://res.cloudinary.com/angelsa/image/upload/v1650748233/resume/%D7%9C%D7%9C%D7%90_%D7%A9%D7%9D_ikwv9s.png" alt="" />
+                    </div>
+                    <div className="soldays-exp">
+                        <h2>SOLDAYS☀️</h2>
+                        <p>builded in React Framwork, a weather app that shows 5 daily forecast, current day wetaher details, you can search by city and search using voice mode.
+                            Also may keep you favorite location... the app set dark mode and show temperature in F and C unit, build in 5 days frontend only.. enjoy  
+                        </p>
+                        <div className="btn-action">
+                            <button className="btn-link"><a href="https://github.com/angel-sanchezp/angelica-serebnitski-20-04-22" target="_blank"><img src="https://res.cloudinary.com/angelsa/image/upload/v1645972824/resume/code-icon_rqo0rh.png" alt="" /></a></button>
+                            <button className="btn-link"><a href=" https://angel-sanchezp.github.io/angelica-serebnitski-20-04-22/" target="_blank"><img src="https://res.cloudinary.com/angelsa/image/upload/v1645972829/resume/link-icon_qruluy.png" alt="" /></a></button>
+                        </div>
+                    </div>
+                </div>
                 <div className="app-container">
                     <div className="app-img">
                         <img src="https://res.cloudinary.com/angelsa/image/upload/v1645972899/resume/apsus_dkrktj.png" alt="" />
